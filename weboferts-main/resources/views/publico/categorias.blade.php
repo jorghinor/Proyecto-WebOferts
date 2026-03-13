@@ -1,0 +1,59 @@
+@extends('template')
+
+@section('banner')
+<div id="hero-area">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="contents-ctg">
+                    <div class="search-bar">
+                        <div class="search-inner">
+                            <form class="search-form">
+                                <div class="form-group inputwithicon">
+                                    <i class="lni-tag"></i>
+                                    <input type="text" name="customword" class="form-control" placeholder="Enter Product Keyword">
+                                </div>
+                                <div class="form-group inputwithicon">
+                                    <i class="lni-map-marker"></i>
+                                    <div class="select">
+                                        <select>
+                                            <option value="none">All Locations</option>
+                                            <option value="none">New York</option>
+                                            <option value="none">California</option>
+                                            <option value="none">Washington</option>
+                                            <option value="none">Birmingham</option>
+                                            <option value="none">Chicago</option>
+                                            <option value="none">Phoenix</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group inputwithicon">
+                                    <i class="lni-menu"></i>
+                                    <div class="select">
+                                        <select>
+                                            <option value="none">Select Categories</option>
+                                            <option value="none">Mobiles</option>
+                                            <option value="none">Electronics</option>
+                                            <option value="none">Training</option>
+                                            <option value="none">Real Estate</option>
+                                            <option value="none">Services</option>
+                                            <option value="none">Training</option>
+                                            <option value="none">Vehicles</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button class="btn btn-common" type="button"><i class="lni-search"></i> Search Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('section')
+<categorias></categorias>
+@endsection

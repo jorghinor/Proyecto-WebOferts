@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@mdi/font": "^5.9.55",
+        "axios": "^0.21",
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "material-design-icons-iconfont": "^6.1.0",
+        "popper.js": "^1.12",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.20.1",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.5.17",
+        "vue-image-upload-resize": "^2.3.0",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.10",
+        "vuetify-image-input": "^19.1.0"
+    },
+    "dependencies": {
+        "rxjs": "^6.6.7",
+        "sweetalert2": "^11.26.22",
+        "vue-cropper": "^0.5.2",
+        "vue-rx": "^6.2.0",
+        "vuejs-clipper": "^3.1.2",
+        "vuetify": "^2.4.4"
+    }
+}
